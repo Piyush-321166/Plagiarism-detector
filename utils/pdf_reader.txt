@@ -1,0 +1,20 @@
+# utils/pdf_reader.py
+import pdfplumber
+import sys
+
+def extract_text_from_pdf(file_path: str) -> str:
+    """Extracts and returns text from a PDF file."""
+    text = []
+    with pdfplumber.open(file_path) as pdf:
+        for page in pdf.pages:
+            content = page.extract_text()
+            if content:
+                text.append(content)
+    return "\n".join(text)
+
+if __name__ == "__main__":
+    if len(sys.argv) < 2:
+        print("Usage: python utils/pdf_reader.py <path-to-pdf>")
+    else:
+        pdf_path = sys.argv[1]
+        print(extract_text_from_pdf(pdf_path))

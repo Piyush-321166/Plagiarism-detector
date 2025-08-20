@@ -1,0 +1,23 @@
+The “Online Book Store” is a web -based application developed to facilitate the 
+buying and selling of digital and physical books online. The system is designed to 
+provide a user -friendly interface for customers to browse, search, and purchase  
+books, while also  
+offering  an administrative  backend  for managing  the bookstore  inventory,  users  
+account, and  orders.  The project uses  Java for the backend, featuring  a clean,  
+intuitive  layout for the  users  to navigate  categories  such as “Recent  Books”.“New  
+Books”  and “Old  Books”  
+ 
+The project is particularly relevant in today’s digital age, where online shopping 
+for educational and recreational resources is increasingly popular. The platform 
+caters to a diverse audience,  including students, professionals,  and casual readers 
+by offering  
+A wide  range  of genres like  technical  books,  children’s  literature,  and popular  fiction.  
+ 
+ 
+The front end, with its clean layout and responsive design, ensures accessibility 
+across devices, while the back end handles complex operations like user 
+authentication, payment processing, and inventory management. This dual -layered 
+approach ensures that the system is both user -centric and administratively 
+efficient, making it a valuable tool for book enthusiasts and bookstore operators 
+alike.  
+ 
